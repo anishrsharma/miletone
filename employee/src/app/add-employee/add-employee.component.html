@@ -1,0 +1,31 @@
+<p>add-employee works!</p>
+
+
+<div class="add-employee">
+    <h1>Add Employee</h1>
+
+    <form [formGroup]="employeeForm" (ngSubmit)="addEmployee()">
+
+        <input type="text" name="name" id="name" placeholder="enter employee name" formControlName="name">
+        <div *ngIf="employeeForm.get('name').invalid && employeeForm.get('name').touched">
+            Name is required.
+        </div>
+
+
+        <input type="text" name="salary" id="salary" placeholder="enter employee salary" formControlName="salary">
+        <div *ngIf="employeeForm.get('salary').invalid && employeeForm.get('salary').touched">
+            Salary is required.
+        </div>
+
+
+        <input type="text" name="department" id="department" placeholder="enter employee department"
+            formControlName="department">
+        <div *ngIf="employeeForm.get('department').invalid && employeeForm.get('department').touched">
+            Department is required.
+        </div>
+
+
+        <button type="submit">Add</button>
+
+    </form>
+</div>

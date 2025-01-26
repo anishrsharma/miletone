@@ -1,0 +1,34 @@
+{
+  "employees": [
+    {
+      "id": "0fdb",
+      "name": "Divya Sharma",
+      "salary": "3400000",
+      "department": "SAP"
+    },
+    {
+      "id": "c37b",
+      "name": "Abhishek Kumar",
+      "salary": "4500000",
+      "department": "IT"
+    },
+    {
+      "id": "6174",
+      "name": "Anjali Kashyap",
+      "salary": "5600000",
+      "department": "STE"
+    },
+    {
+      "id": "c131",
+      "name": "Harsh Ranjan",
+      "salary": "500000",
+      "department": "SDE"
+    },
+    {
+      "id": "de19",
+      "name": "Anhuj Kumar",
+      "salary": "4500000",
+      "department": "SDE"
+    }
+  ]
+}
